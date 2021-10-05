@@ -2,11 +2,11 @@ const R = require("ramda");
 
 export default {
   install: (app, options) => {
-    app.config.globalProperties.$R: {
+    app.config.globalProperties.$R = {
       get() {
-        return R
-      }
-    }
+        return R;
+      },
+    };
 
     R.ifElse(
       R.and(R.compose(R.not, R.isNil), R.has("Vue")),
@@ -15,5 +15,5 @@ export default {
       },
       () => {}
     )(window);
-  }
-}
+  },
+};
