@@ -4,13 +4,6 @@ const RamdaVue = {
   install: (app, options) => {
     app.$R = R;
     app.config.globalProperties.$R = R;
-    Object.defineProperties(app.prototype, {
-      $R: {
-        get() {
-          return R;
-        },
-      },
-    });
 
     R.ifElse(
       R.and(R.compose(R.not, R.isNil), R.has("Vue")),
