@@ -24,13 +24,9 @@ export default {
   components: {
     HelloWorld,
   },
-  created() {
-    console.log(this.$R);
-  },
   computed: {
     sum() {
-      return 0;
-      /*this.$R.add(this.a, this.b); */
+      return this.$R.add(this.a, this.b);
     },
   },
 };

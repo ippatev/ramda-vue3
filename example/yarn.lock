@@ -5144,10 +5144,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-ramda-vue@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/ramda-vue/-/ramda-vue-0.0.5.tgz#2893606ebdb48516aa4d69ba290d534b7437a57a"
-  integrity sha512-0hA29blSnhpEI4yF9jLBHmb2VobQ9v8bblUHgRxzF5GOohl2m2B4xwDdqh0nVKkNI1fEQ6EryHRgf0CHlJ1SkA==
+ramda-vue@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/ramda-vue/-/ramda-vue-0.0.6.tgz#03176ad9d49bef3187de1f1d40db99bcb4ab5142"
+  integrity sha512-NTVNX08DpF+Si0g2c6TsHIR41vtVptrtk4fc4gvzYzWw9tHDCgrsb3r2y+jHoJdWnKHudO9dyIXpLO0+LoBieA==
   dependencies:
     ramda "^0.27.1"
 
