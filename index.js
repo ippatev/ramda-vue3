@@ -1,6 +1,6 @@
 const R = require("ramda");
 
-export default RamdaVue = {
+const RamdaVue = {
   install: (app, options) => {
     app.$R = R;
     app.config.globalProperties.$R = R;
@@ -21,3 +21,5 @@ export default RamdaVue = {
     )(window);
   },
 };
+
+export default RamdaVue;
