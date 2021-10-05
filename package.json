@@ -1,6 +1,6 @@
 {
   "name": "ramda-vue",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "index.js",
   "description": "A ramda wrapper for vue 3",
   "author": "Aleksandr Ippatev <alexanderippatiev24@gmail.com>",
