@@ -3,11 +3,15 @@ A wrapper for integrating ramda to Vuejs
 
 # how to use it
 ```js
-npm install --save vue-ramda
+npm install --save ramda-vue
 ```
 Add to you main.js
 ```js
-import Vue from 'vue'
-import VueRamda from 'vue-ramda'
-Vue.use(VueRamda)
+import { createApp } from "vue";
+import App from "./App.vue";
+import ramdaVue from "ramda-vue";
+
+createApp(App)
+  .use(ramdaVue)
+  .mount("#app");
 ```
