@@ -1,0 +1,21 @@
+{
+  "name": "ramda-vue",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "A ramda wrapper for vue 3",
+  "author": "Aleksandr Ippatev <alexanderippatiev24@gmail.com>",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ippatev/ramda-vue3.git"
+  },
+  "keywords": [
+    "vue",
+    "ramda",
+    "vue-ramda",
+    "wrapper"
+  ]
+}
