@@ -3,7 +3,7 @@ A wrapper for integrating ramda to Vuejs
 
 Docs ramda: https://ramdajs.com/docs/
 
-# how to use it
+# How to use it?
 ```js
 npm install --save ramda-vue
 ```
