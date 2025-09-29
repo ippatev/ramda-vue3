@@ -1,5 +1,5 @@
 {
-  "name": "@ippatev/ramda-vue",
+  "name": "ramda-vue",
   "version": "1.0.2",
   "main": "index.js",
   "description": "A ramda wrapper for vue 3",
